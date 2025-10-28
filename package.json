@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=ui",
-    "build": "npm run build --workspace=ui",
+    "build": "npx vite build packages/ui",
     "deploy-worker": "npm run deploy --workspace=worker"
   },
   "devDependencies": {
